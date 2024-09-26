@@ -1,2 +1,3 @@
-# custom-hash-tables
-A custom hashing algorithm.
+# Project Description
+This demonstrates a custom hashing algorithm for the dracula text file. The hash table first sets the initial size and data before processing
+each word. With each word it then iterates through each character and updates the hash value with the custom polynomial hash calculation. The hash function is used to find the index. If a slot is used, linear probing is applied to avoid collisions by finding the next available slot, incrementing the index in a linear manner until it finds an empty slot. The load factor is monitored for it to not exceed 0.75 otherwise it is rehashed to a larger size with the elements of the old array rehashed into the new array

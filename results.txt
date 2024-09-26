@@ -1,0 +1,9 @@
+Alexander Gonzalez Ramirez
+
+[HASH TABLE #1]
+Size: 20021
+Load Factor: 0.6605064682083812
+
+[HASH TABLE #2]
+Size: 30031
+Load Factor: 0.3240651326962139
